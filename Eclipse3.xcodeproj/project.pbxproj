@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B56126101BF8B9740037780F /* customCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B561260F1BF8B9740037780F /* customCellTableViewCell.m */; };
+		B56126131BF9AE580037780F /* editViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B56126121BF9AE580037780F /* editViewController.m */; };
+		B57C210F1BF49E1B000CB19A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B57C210E1BF49E1B000CB19A /* main.m */; };
+		B57C21121BF49E1B000CB19A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B57C21111BF49E1B000CB19A /* AppDelegate.m */; };
+		B57C21151BF49E1B000CB19A /* mainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B57C21141BF49E1B000CB19A /* mainViewController.m */; };
+		B57C21181BF49E1B000CB19A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B57C21161BF49E1B000CB19A /* Main.storyboard */; };
+		B57C211A1BF49E1B000CB19A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B57C21191BF49E1B000CB19A /* Assets.xcassets */; };
+		B57C211D1BF49E1B000CB19A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B57C211B1BF49E1B000CB19A /* LaunchScreen.storyboard */; };
+		B57C21281BF49E1B000CB19A /* Eclipse3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B57C21271BF49E1B000CB19A /* Eclipse3Tests.m */; };
+		B57C21331BF49E1B000CB19A /* Eclipse3UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B57C21321BF49E1B000CB19A /* Eclipse3UITests.m */; };
+		B57C21461BF4A389000CB19A /* loginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B57C21451BF4A389000CB19A /* loginViewController.m */; };
+		B57C214C1BF4A3BF000CB19A /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B57C214A1BF4A3BF000CB19A /* libsqlite3.0.tbd */; };
+		B57C214D1BF4A3BF000CB19A /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B57C214B1BF4A3BF000CB19A /* libsqlite3.tbd */; };
+		B57C21541BF4BDBE000CB19A /* createViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B57C21531BF4BDBE000CB19A /* createViewController.m */; };
+		B58B4EA21BFC7B210020527B /* archivesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58B4EA11BFC7B210020527B /* archivesViewController.m */; };
+		B58B4EA61BFC7CD00020527B /* archiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B58B4EA51BFC7CD00020527B /* archiveCell.m */; };
+		B58B4EA81BFC9E220020527B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58B4EA71BFC9E220020527B /* CoreLocation.framework */; };
+		B58B4EAA1BFC9E3E0020527B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58B4EA91BFC9E3E0020527B /* SystemConfiguration.framework */; };
+		B58B4EAC1BFC9E4E0020527B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58B4EAB1BFC9E4E0020527B /* MobileCoreServices.framework */; };
+		B58B4EAE1BFC9E760020527B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58B4EAD1BFC9E760020527B /* Security.framework */; };
+		D8B34B532EFCD045DDDA6D9A /* Pods_Eclipse3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C81B05D990B7E4A47E5622A /* Pods_Eclipse3.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B57C21241BF49E1B000CB19A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B57C21021BF49E1B000CB19A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B57C21091BF49E1B000CB19A;
+			remoteInfo = Eclipse3;
+		};
+		B57C212F1BF49E1B000CB19A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B57C21021BF49E1B000CB19A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B57C21091BF49E1B000CB19A;
+			remoteInfo = Eclipse3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C81B05D990B7E4A47E5622A /* Pods_Eclipse3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eclipse3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50C54F1B498F85A2C8342179 /* Pods-Eclipse3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eclipse3.release.xcconfig"; path = "Pods/Target Support Files/Pods-Eclipse3/Pods-Eclipse3.release.xcconfig"; sourceTree = "<group>"; };
+		61442FED24BD9AF111BCA2DF /* Pods-Eclipse3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eclipse3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Eclipse3/Pods-Eclipse3.debug.xcconfig"; sourceTree = "<group>"; };
+		B561260E1BF8B9740037780F /* customCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customCellTableViewCell.h; sourceTree = SOURCE_ROOT; };
+		B561260F1BF8B9740037780F /* customCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customCellTableViewCell.m; sourceTree = SOURCE_ROOT; };
+		B56126111BF9AE580037780F /* editViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = editViewController.h; sourceTree = "<group>"; };
+		B56126121BF9AE580037780F /* editViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = editViewController.m; sourceTree = "<group>"; };
+		B57C210A1BF49E1B000CB19A /* Eclipse3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eclipse3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B57C210E1BF49E1B000CB19A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B57C21101BF49E1B000CB19A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B57C21111BF49E1B000CB19A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B57C21131BF49E1B000CB19A /* mainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mainViewController.h; sourceTree = "<group>"; };
+		B57C21141BF49E1B000CB19A /* mainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mainViewController.m; sourceTree = "<group>"; };
+		B57C21171BF49E1B000CB19A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B57C21191BF49E1B000CB19A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B57C211C1BF49E1B000CB19A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B57C211E1BF49E1B000CB19A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B57C21231BF49E1B000CB19A /* Eclipse3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Eclipse3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B57C21271BF49E1B000CB19A /* Eclipse3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Eclipse3Tests.m; sourceTree = "<group>"; };
+		B57C21291BF49E1B000CB19A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B57C212E1BF49E1B000CB19A /* Eclipse3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Eclipse3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B57C21321BF49E1B000CB19A /* Eclipse3UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Eclipse3UITests.m; sourceTree = "<group>"; };
+		B57C21341BF49E1B000CB19A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B57C21441BF4A389000CB19A /* loginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = loginViewController.h; path = ../loginViewController.h; sourceTree = "<group>"; };
+		B57C21451BF4A389000CB19A /* loginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = loginViewController.m; path = ../loginViewController.m; sourceTree = "<group>"; };
+		B57C214A1BF4A3BF000CB19A /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		B57C214B1BF4A3BF000CB19A /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		B57C21521BF4BDBE000CB19A /* createViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = createViewController.h; path = ../createViewController.h; sourceTree = "<group>"; };
+		B57C21531BF4BDBE000CB19A /* createViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = createViewController.m; path = ../createViewController.m; sourceTree = "<group>"; };
+		B58B4EA01BFC7B210020527B /* archivesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = archivesViewController.h; path = ../archivesViewController.h; sourceTree = "<group>"; };
+		B58B4EA11BFC7B210020527B /* archivesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = archivesViewController.m; path = ../archivesViewController.m; sourceTree = "<group>"; };
+		B58B4EA41BFC7CD00020527B /* archiveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = archiveCell.h; path = ../archiveCell.h; sourceTree = "<group>"; };
+		B58B4EA51BFC7CD00020527B /* archiveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = archiveCell.m; path = ../archiveCell.m; sourceTree = "<group>"; };
+		B58B4EA71BFC9E220020527B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B58B4EA91BFC9E3E0020527B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B58B4EAB1BFC9E4E0020527B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B58B4EAD1BFC9E760020527B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B57C21071BF49E1B000CB19A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58B4EAE1BFC9E760020527B /* Security.framework in Frameworks */,
+				B58B4EAC1BFC9E4E0020527B /* MobileCoreServices.framework in Frameworks */,
+				B58B4EAA1BFC9E3E0020527B /* SystemConfiguration.framework in Frameworks */,
+				B58B4EA81BFC9E220020527B /* CoreLocation.framework in Frameworks */,
+				B57C214C1BF4A3BF000CB19A /* libsqlite3.0.tbd in Frameworks */,
+				B57C214D1BF4A3BF000CB19A /* libsqlite3.tbd in Frameworks */,
+				D8B34B532EFCD045DDDA6D9A /* Pods_Eclipse3.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B57C21201BF49E1B000CB19A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B57C212B1BF49E1B000CB19A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		364CCA40C4659326ACE3EB01 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61442FED24BD9AF111BCA2DF /* Pods-Eclipse3.debug.xcconfig */,
+				50C54F1B498F85A2C8342179 /* Pods-Eclipse3.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B57C21011BF49E1B000CB19A = {
+			isa = PBXGroup;
+			children = (
+				B57C210C1BF49E1B000CB19A /* Eclipse3 */,
+				B57C21261BF49E1B000CB19A /* Eclipse3Tests */,
+				B57C21311BF49E1B000CB19A /* Eclipse3UITests */,
+				B57C210B1BF49E1B000CB19A /* Products */,
+				B57C214E1BF4A3C5000CB19A /* Frameworks */,
+				364CCA40C4659326ACE3EB01 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		B57C210B1BF49E1B000CB19A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B57C210A1BF49E1B000CB19A /* Eclipse3.app */,
+				B57C21231BF49E1B000CB19A /* Eclipse3Tests.xctest */,
+				B57C212E1BF49E1B000CB19A /* Eclipse3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B57C210C1BF49E1B000CB19A /* Eclipse3 */ = {
+			isa = PBXGroup;
+			children = (
+				B57C21431BF49E47000CB19A /* Main */,
+				B57C21401BF49E23000CB19A /* Modal */,
+				B57C21411BF49E2A000CB19A /* View */,
+				B57C21421BF49E35000CB19A /* Controller */,
+				B57C210D1BF49E1B000CB19A /* Supporting Files */,
+			);
+			path = Eclipse3;
+			sourceTree = "<group>";
+		};
+		B57C210D1BF49E1B000CB19A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B57C210E1BF49E1B000CB19A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B57C21261BF49E1B000CB19A /* Eclipse3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B57C21271BF49E1B000CB19A /* Eclipse3Tests.m */,
+				B57C21291BF49E1B000CB19A /* Info.plist */,
+			);
+			path = Eclipse3Tests;
+			sourceTree = "<group>";
+		};
+		B57C21311BF49E1B000CB19A /* Eclipse3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B57C21321BF49E1B000CB19A /* Eclipse3UITests.m */,
+				B57C21341BF49E1B000CB19A /* Info.plist */,
+			);
+			path = Eclipse3UITests;
+			sourceTree = "<group>";
+		};
+		B57C21401BF49E23000CB19A /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Modal;
+			sourceTree = "<group>";
+		};
+		B57C21411BF49E2A000CB19A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B58B4EA41BFC7CD00020527B /* archiveCell.h */,
+				B58B4EA51BFC7CD00020527B /* archiveCell.m */,
+				B561260E1BF8B9740037780F /* customCellTableViewCell.h */,
+				B561260F1BF8B9740037780F /* customCellTableViewCell.m */,
+				B57C21161BF49E1B000CB19A /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B57C21421BF49E35000CB19A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B57C21501BF4AA58000CB19A /* loginViewController */,
+				B58B4EA31BFC7B360020527B /* archivesViewController */,
+				B57C21551BF4BDCE000CB19A /* createViewController */,
+				B57C214F1BF4AA42000CB19A /* editViewController */,
+				B57C21511BF4AA6C000CB19A /* mainViewController */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B57C21431BF49E47000CB19A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B57C21101BF49E1B000CB19A /* AppDelegate.h */,
+				B57C21111BF49E1B000CB19A /* AppDelegate.m */,
+				B57C211E1BF49E1B000CB19A /* Info.plist */,
+				B57C211B1BF49E1B000CB19A /* LaunchScreen.storyboard */,
+				B57C21191BF49E1B000CB19A /* Assets.xcassets */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		B57C214E1BF4A3C5000CB19A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B58B4EAD1BFC9E760020527B /* Security.framework */,
+				B58B4EAB1BFC9E4E0020527B /* MobileCoreServices.framework */,
+				B58B4EA91BFC9E3E0020527B /* SystemConfiguration.framework */,
+				B58B4EA71BFC9E220020527B /* CoreLocation.framework */,
+				B57C214A1BF4A3BF000CB19A /* libsqlite3.0.tbd */,
+				B57C214B1BF4A3BF000CB19A /* libsqlite3.tbd */,
+				2C81B05D990B7E4A47E5622A /* Pods_Eclipse3.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B57C214F1BF4AA42000CB19A /* editViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B56126111BF9AE580037780F /* editViewController.h */,
+				B56126121BF9AE580037780F /* editViewController.m */,
+			);
+			name = editViewController;
+			sourceTree = "<group>";
+		};
+		B57C21501BF4AA58000CB19A /* loginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B57C21441BF4A389000CB19A /* loginViewController.h */,
+				B57C21451BF4A389000CB19A /* loginViewController.m */,
+			);
+			name = loginViewController;
+			sourceTree = "<group>";
+		};
+		B57C21511BF4AA6C000CB19A /* mainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B57C21131BF49E1B000CB19A /* mainViewController.h */,
+				B57C21141BF49E1B000CB19A /* mainViewController.m */,
+			);
+			name = mainViewController;
+			sourceTree = "<group>";
+		};
+		B57C21551BF4BDCE000CB19A /* createViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B57C21521BF4BDBE000CB19A /* createViewController.h */,
+				B57C21531BF4BDBE000CB19A /* createViewController.m */,
+			);
+			name = createViewController;
+			sourceTree = "<group>";
+		};
+		B58B4EA31BFC7B360020527B /* archivesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B58B4EA01BFC7B210020527B /* archivesViewController.h */,
+				B58B4EA11BFC7B210020527B /* archivesViewController.m */,
+			);
+			name = archivesViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B57C21091BF49E1B000CB19A /* Eclipse3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B57C21371BF49E1B000CB19A /* Build configuration list for PBXNativeTarget "Eclipse3" */;
+			buildPhases = (
+				100F62EE38927A978001891D /* Check Pods Manifest.lock */,
+				B57C21061BF49E1B000CB19A /* Sources */,
+				B57C21071BF49E1B000CB19A /* Frameworks */,
+				B57C21081BF49E1B000CB19A /* Resources */,
+				C4B1E635A1E1A6FE43E09BE4 /* Embed Pods Frameworks */,
+				AAE8D54BEB47BE4DBB787686 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eclipse3;
+			productName = Eclipse3;
+			productReference = B57C210A1BF49E1B000CB19A /* Eclipse3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B57C21221BF49E1B000CB19A /* Eclipse3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B57C213A1BF49E1B000CB19A /* Build configuration list for PBXNativeTarget "Eclipse3Tests" */;
+			buildPhases = (
+				B57C211F1BF49E1B000CB19A /* Sources */,
+				B57C21201BF49E1B000CB19A /* Frameworks */,
+				B57C21211BF49E1B000CB19A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B57C21251BF49E1B000CB19A /* PBXTargetDependency */,
+			);
+			name = Eclipse3Tests;
+			productName = Eclipse3Tests;
+			productReference = B57C21231BF49E1B000CB19A /* Eclipse3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B57C212D1BF49E1B000CB19A /* Eclipse3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B57C213D1BF49E1B000CB19A /* Build configuration list for PBXNativeTarget "Eclipse3UITests" */;
+			buildPhases = (
+				B57C212A1BF49E1B000CB19A /* Sources */,
+				B57C212B1BF49E1B000CB19A /* Frameworks */,
+				B57C212C1BF49E1B000CB19A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B57C21301BF49E1B000CB19A /* PBXTargetDependency */,
+			);
+			name = Eclipse3UITests;
+			productName = Eclipse3UITests;
+			productReference = B57C212E1BF49E1B000CB19A /* Eclipse3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B57C21021BF49E1B000CB19A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = jhx;
+				TargetAttributes = {
+					B57C21091BF49E1B000CB19A = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					B57C21221BF49E1B000CB19A = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = B57C21091BF49E1B000CB19A;
+					};
+					B57C212D1BF49E1B000CB19A = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = B57C21091BF49E1B000CB19A;
+					};
+				};
+			};
+			buildConfigurationList = B57C21051BF49E1B000CB19A /* Build configuration list for PBXProject "Eclipse3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B57C21011BF49E1B000CB19A;
+			productRefGroup = B57C210B1BF49E1B000CB19A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B57C21091BF49E1B000CB19A /* Eclipse3 */,
+				B57C21221BF49E1B000CB19A /* Eclipse3Tests */,
+				B57C212D1BF49E1B000CB19A /* Eclipse3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B57C21081BF49E1B000CB19A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57C211D1BF49E1B000CB19A /* LaunchScreen.storyboard in Resources */,
+				B57C211A1BF49E1B000CB19A /* Assets.xcassets in Resources */,
+				B57C21181BF49E1B000CB19A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B57C21211BF49E1B000CB19A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B57C212C1BF49E1B000CB19A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		100F62EE38927A978001891D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AAE8D54BEB47BE4DBB787686 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Eclipse3/Pods-Eclipse3-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4B1E635A1E1A6FE43E09BE4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Eclipse3/Pods-Eclipse3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B57C21061BF49E1B000CB19A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57C21461BF4A389000CB19A /* loginViewController.m in Sources */,
+				B57C21151BF49E1B000CB19A /* mainViewController.m in Sources */,
+				B57C21541BF4BDBE000CB19A /* createViewController.m in Sources */,
+				B57C21121BF49E1B000CB19A /* AppDelegate.m in Sources */,
+				B57C210F1BF49E1B000CB19A /* main.m in Sources */,
+				B56126101BF8B9740037780F /* customCellTableViewCell.m in Sources */,
+				B58B4EA61BFC7CD00020527B /* archiveCell.m in Sources */,
+				B56126131BF9AE580037780F /* editViewController.m in Sources */,
+				B58B4EA21BFC7B210020527B /* archivesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B57C211F1BF49E1B000CB19A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57C21281BF49E1B000CB19A /* Eclipse3Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B57C212A1BF49E1B000CB19A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57C21331BF49E1B000CB19A /* Eclipse3UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B57C21251BF49E1B000CB19A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B57C21091BF49E1B000CB19A /* Eclipse3 */;
+			targetProxy = B57C21241BF49E1B000CB19A /* PBXContainerItemProxy */;
+		};
+		B57C21301BF49E1B000CB19A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B57C21091BF49E1B000CB19A /* Eclipse3 */;
+			targetProxy = B57C212F1BF49E1B000CB19A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B57C21161BF49E1B000CB19A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B57C21171BF49E1B000CB19A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B57C211B1BF49E1B000CB19A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B57C211C1BF49E1B000CB19A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B57C21351BF49E1B000CB19A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B57C21361BF49E1B000CB19A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B57C21381BF49E1B000CB19A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61442FED24BD9AF111BCA2DF /* Pods-Eclipse3.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Eclipse3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jhx.Eclipse3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B57C21391BF49E1B000CB19A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50C54F1B498F85A2C8342179 /* Pods-Eclipse3.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Eclipse3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jhx.Eclipse3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B57C213B1BF49E1B000CB19A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Eclipse3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jhx.Eclipse3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eclipse3.app/Eclipse3";
+			};
+			name = Debug;
+		};
+		B57C213C1BF49E1B000CB19A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Eclipse3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jhx.Eclipse3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eclipse3.app/Eclipse3";
+			};
+			name = Release;
+		};
+		B57C213E1BF49E1B000CB19A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Eclipse3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jhx.Eclipse3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Eclipse3;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B57C213F1BF49E1B000CB19A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Eclipse3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jhx.Eclipse3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Eclipse3;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B57C21051BF49E1B000CB19A /* Build configuration list for PBXProject "Eclipse3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57C21351BF49E1B000CB19A /* Debug */,
+				B57C21361BF49E1B000CB19A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B57C21371BF49E1B000CB19A /* Build configuration list for PBXNativeTarget "Eclipse3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57C21381BF49E1B000CB19A /* Debug */,
+				B57C21391BF49E1B000CB19A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B57C213A1BF49E1B000CB19A /* Build configuration list for PBXNativeTarget "Eclipse3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57C213B1BF49E1B000CB19A /* Debug */,
+				B57C213C1BF49E1B000CB19A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B57C213D1BF49E1B000CB19A /* Build configuration list for PBXNativeTarget "Eclipse3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57C213E1BF49E1B000CB19A /* Debug */,
+				B57C213F1BF49E1B000CB19A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B57C21021BF49E1B000CB19A /* Project object */;
+}
